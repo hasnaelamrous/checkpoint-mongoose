@@ -1,12 +1,10 @@
-const express = require("express");
+
 const connectDb = require("./config/database"); // fonction de connexion à la base de données
 require("dotenv").config();
 const Person = require("./models/person");// Importation du modèle Person
-const app = express();
-const PORT = process.env.PORT ;
 
-// Middleware for parsing JSON bodies
-app.use(express.json());
+
+
 
 
 
@@ -138,6 +136,3 @@ const queryChain = async () => {
 
 
 
-// Start the server
-
-app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
