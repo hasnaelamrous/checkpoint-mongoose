@@ -10,10 +10,7 @@ app.use(express.json());
 
 
 
-// Exemple : route simple pour tester
-app.get("/", (req, res) => {
-  res.send("MongoDB & Mongoose Checkpoint Running ");
-});
+
 // create and save a person
 const createAndSavePerson = async () => {
   try {
