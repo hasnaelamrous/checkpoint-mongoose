@@ -1,0 +1,10 @@
+# Ignore les fichiers sensibles
+.env
+.env.local
+
+# Ignore les dépendances
+node_modules/
+
+# Autres fichiers courants à ignorer
+.DS_Store
+npm-debug.log*
